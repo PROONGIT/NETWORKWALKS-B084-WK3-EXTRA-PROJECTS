@@ -462,31 +462,31 @@ https://github.com/user-attachments/assets/61498543-e3fa-4762-a4cc-ce149b9cbfc8
 
 # 💡 What I practiced
 
-Through this project, I practiced password hacking with different tools. I cracked hashes and found the passwords to open locked pdf files. The abilities developed in these activities can be used to hack many other kinds of passwords, including credentials and wi-fi passwords. I tested the data security regarding their confidentiality. I captured the hidden flags. I used the popular Cybersecurity tool John The Ripper (JTR) in a Windows environment. I also experienced the Networkwalks Hash Calculator and Password Cracker tools.
+Through this project, I practiced password hacking with AI. I set up a HexStrike MCP server and Claude Desktop as MCP client. I used the setup to get the hash value and found the password to open a locked pdf file. I experimeted and practiced AI automated cybersecurity. I orchestrated hacking tasks with the HexStrike MCP server and the client Claude Desktop. The abilities developed in these activities can be used to hack many other kinds of passwords, including credentials and wi-fi passwords. I tested the data security regarding their confidentiality. I captured the hidden flags. I used the popular Cybersecurity tool John The Ripper (JTR) via a MCP server. I experienced Agentic AI. I also demonstrated Prompt Engineering skills.
 
-I demonstrated Ethical Hacking and Data Security skills.
+I demonstrated AI Automated Cybersecurity, Ethical Hacking and Data Security skills.
 
 The most important skills I demonstrated include:
 
-### 1. Password hacking
+### 1. AI Automated Cybersecurity
 
-I used JTR and Networkwalks tools to hack the passwords and capture the flags. 
+I set up a HexStrike MCP server and Claude Desktop as MCP client. I used the setup for hacking.
 
 ### 2. Catch The Flag
 
 I captured the hidden flags and documented them faithfully.
 
-### 3. Online HashCrack tool
+### 3. Password hacking
 
-I used the Online HashCrack tool to find the hash value of PDF files.
+I used JTR and Networkwalks tools to hack the passwords and capture the flags. 
 
-### 4. JTR tools
+### 4. Data Security
 
-I used JTR tools to get the plain text passwords from hash values. 
+I used AI and JTR tools to perform password auditing for Data security.
 
-### 5. Networkwalks tools
+### 5. Prompt Engineering
 
-I used the Networkwalks Hash Calculator tool to find the hash value of a PDF file, and the Networkwalks Password Cracker tool to get the plain text password from the hash value.
+I wrote prompts to assign tasks to Claude Desktop as a MCP client for the HexStrike MCP server. The prompts brought to the expected results successsfully.
 
 ### 6. Cyber Threat Intelligence 
 
@@ -498,11 +498,11 @@ By testing the strength of the passwords for data security and early detecting t
 
 ### 8. Security-tool experimentation
 
-Using different tools such as JTR John, JTR Johnny, as well as Networkwalks Hash Calculator and Passwrd Cracker tools to hack passwords is a practical way to experiment and master security tools.
+Using different tools such as JTR John, HexStrike-AI MCP server, as well as Claude Desktop AI MCP client to hack passwords is a practical way to experiment and master security tools.
 
 ### 9. Security mindset
 
-A security mindset in cybersecurity is a proactive, analytical way of thinking. I demonstrated that mindset throughout this project by using appropriate tools and testing the strength of the passwords that were supposed to ensure data privacy.
+A security mindset in cybersecurity is a proactive, analytical way of thinking. I demonstrated that mindset throughout this project by using appropriate AI tools and testing the strength of the passwords that were supposed to ensure data privacy.
 
 ### 10. Documentation
 
