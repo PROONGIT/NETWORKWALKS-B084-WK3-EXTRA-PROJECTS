@@ -7,24 +7,34 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Skill-Cybersecurity-404040?style=flat-square&labelColor=C00000" />
-  <img src="https://img.shields.io/badge/Kali%20Linux-v2026.3-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ver-John%20The%20Ripper%20v1.9-0070C0?style=flat-square&labelColor=000000" />
-  
+  <img src="https://img.shields.io/badge/Ver-Virtualbox%20v7.2.22-0070C0?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Kali%20Linux-v2026.3-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />  
   <img src="https://img.shields.io/badge/Claude%20Desktop-E87500?style=flat-square&labelColor=000000&logo=Claude&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hexstrike%20AI-C00000?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
-  
-  <img src="https://img.shields.io/badge/Ver-Johnny%20v2.2-0070C0?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Hexstrike%20AI-C00000?style=flat-square&labelColor=000000&logo=foobar2000&logoColor=white" />
+  <img src="https://img.shields.io/badge/MCP%20Server-Hexstrike%20AI-238F89?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/MCP%20Client-Claude%20Desktop-238F89?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Ver-John%20The%20Ripper%20v1.9-0070C0?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Security%20Auditing-C00000?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Skill-AI%20Automated%20Cybersecurity-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Skill-Agentic%20AI-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Skill-Prompt%20Engineering-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Skill-MCP%20Orchestration-404040?style=flat-square&labelColor=C00000" />  
   <img src="https://img.shields.io/badge/Skill-Password%20Hacking-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/Skill-Dictionary%20Attacks-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/Skill-Catch%20The%20Flag-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/Skill-Hash%20Cracking-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Skill-Data%20Security%20&%20Privacy-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
   <img src="https://img.shields.io/badge/Penetration%20Testing-C00000?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Networkwalks%20Tool-Hash%20Calculator-238F89?style=flat-square&labelColor=000000" />
-  <img src="https://img.shields.io/badge/Networkwalks%20Tool-Password%20Hacker-238F89?style=flat-square&labelColor=000000" />
   <img src="https://img.shields.io/badge/GitHub-404040?style=flat-square&labelColor=0070C0&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/NetworkWalks-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/AZIAGBEDO%20KOKOU%20SODJINE%20-%20CCEP-C00000?style=flat-square" />
+</p>
+
+---
+
+<p align="center">
+  <img src="images/hexstrike.jpg" width="400" height="175" alt="HexStrike AI">
 </p>
 
 ---
