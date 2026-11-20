@@ -41,27 +41,11 @@
 
 ## 📌 Project Overview
 
-This project focuses on password cracking using AI, MCP Server and client. It helps develop Cybersecurity skills such as Ethical Hacking, Penetration Testing and specially AI automated cybersecurity. It is composed of two modules : Module 1 (M1) and Module 2 (M2). 
+This project focuses on password cracking using AI, MCP Server and MCP client in a lab-environment. It helps develop Cybersecurity skills such as Ethical Hacking, Penetration Testing and specially AI automated cybersecurity. It is composed of two modules : Module 1 (M1) and Module 2 (M2). 
 
 The purpose of M1 is to setup a HexStrike MCP Server with Claude Desktop as a MCP client. The M2 aims to use JTR via MCP orchestration for password cracking.
 
 The password-cracking activities presented in this project should only target authorized files and devices or those you own for security testing.
-
----
-
-# 🔓 M1 - Setting up a HexStrike MCP Server
-
----
-
-## ⚓ Background
-
-To experiment AI automated cybersecurity, we are setting up a Hexstrike MCP Server with Claude desktop on Kali Linux in a lab-environment. John the Ripper (JTR) is a popular password cracking tool used by security professionals to test how strong passwords are. It is integrated to the HexStrike MCP server as well as almost 150 other Cybersecurity tools.
-
----
-
-## 🎯 Objective
-
-The PM1's objective is to set up a Hexstrike MCP Server with Claude desktop as client on a Kali Linux VM in a lab-environment.
 
 ---
 
@@ -81,6 +65,22 @@ The PM1's objective is to set up a Hexstrike MCP Server with Claude desktop as c
 | 🚪 Default Gateway | 10.0.0.1           |
 | 🌍 DNS Server      | 8.8.8.8            |
 | 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
+
+---
+
+# 🔓 M1 - Setting up a HexStrike MCP Server
+
+---
+
+## ⚓ Background
+
+To experiment AI automated cybersecurity, we are setting up a Hexstrike MCP Server with Claude desktop on Kali Linux in a lab-environment. John the Ripper (JTR) is a popular password cracking tool used by security professionals to test how strong passwords are. It is integrated to the HexStrike MCP server as well as almost 150 other Cybersecurity tools.
+
+---
+
+## 🎯 Objective
+
+The PM1's objective is to set up a Hexstrike MCP Server with Claude desktop as client on a Kali Linux VM in a lab-environment.
 
 ---
 
