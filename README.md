@@ -74,7 +74,7 @@ The password-cracking activities presented in this project should only target au
 
 ## ⚓ Background
 
-To experiment AI automated cybersecurity, we are setting up a Hexstrike MCP Server with Claude desktop on Kali Linux in a lab-environment. John the Ripper (JTR) is a popular password cracking tool used by security professionals to test how strong passwords are. It is integrated to the HexStrike MCP server as well as almost 150 other Cybersecurity tools.
+To experiment AI automated cybersecurity, we are setting up a Hexstrike MCP Server with Claude desktop on Kali Linux in a lab-environment. The HexStrike MCP server integrates almost 150 Cybersecurity tools, including the popular password cracking tool John the Ripper (JTR) that is used by security professionals to test how strong passwords are. 
 
 ---
 
@@ -324,47 +324,41 @@ We wisely took a snapchat of the Kali VM to save its state in Virtualbox.
 
 ---
 
-# 🔓 PM2 - Password Cracking with Networkwalks Tools
+# 🔓 M2 - JTR Password Cracking AI-version
 
 ---
 
 ## ⚓ Background
 
-Password cracking is the process of recovering a password from stored data or a protected file. Security
-professionals use it to test how strong a password is and to show why weak passwords are risky. If a
-password is short or common, it can be found quickly, which proves the need for strong passwords.
+We are cracking the password of the PDF file "My Locked PDF1.pdf" using JTR JOHN with the help of AI (Hexstrike-AI MCP with Claude desktop in Kali Linux).
 
-Many files like PDF, ZIP, and Office documents can be locked with a password. When a file is locked, its
-password is stored in the form of a hash. A hash is a scrambled value that represents the password. To
-recover the password, we first take out this hash from the file, and then run it through a cracking tool that
-tries different words until it finds a match.
+This module helps understand and experiment AI automated cybersecurity. It also helps understand how password cracking works step by step and why strong passwords are important for protection.
 
-In this lab you will use two free online tools made by Networkwalks. First you will use the Hash Calculator
-to take the hash out of a locked PDF file. Then you will use the Password Cracker to find the real password
-from that hash. Both tools run in your web browser, so you do not need to install anything.
+Related Info:
 
-This lab helps you understand how password cracking works step by step and why strong passwords are
-important for protection.
+- Lab environment: Hexstrike-AI MCP server with Claude desktop on Kali Linux VM (follow the attached Hexstrike-AI MCP server setup guide)
+
+- The target file "My Locked PDF1.pdf" is in the folder "/encrypted file/".
 
 ---
 
 ## 🎯 Objective
 
-The PM2's objective is to crack the password of the attached PDF file "My Locked PDF1 (for NW Tools Lab WK3-PM2).pdf" using the Networkwalks Hash Calculator and Password Cracker tools on a Windows laptop.
+The M2's objective is to crack the password of "My Locked PDF1.pdf" using JTR JOHN with the help of AI (Hexstrike-AI MCP with Claude desktop in Kali Linux).
 
 ---
 
 ## 👣 Step 1
 
-We downloaded the encrypted PDF file **`My Locked PDF1 (for NW Tools Lab WK3-PM2).pdf`** to our laptop from the Networkwalks project's Google Drive link. The downloaded file is available in **`/downloads/`**
+We copied the encrypted PDF file **`My Locked PDF1.pdf`** to our Kali VM desktop. 
+
+The said PDF is from the Networkwalks project's Google Drive link. The downloaded file is available in **`/encrypted file/`**
 
 ---
 
-![2_step_1.png](/screenshots/2_step_1.png)
+![screenshot_19.png](/images/screenshot_19.png)
 
 ---
-
-### 
 
 ## 👣 Step 2
 
