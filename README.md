@@ -34,7 +34,7 @@
 ---
 
 <p align="center">
-  <img src="images/hexstrike.jpg" width="400" height="175" alt="HexStrike AI">
+  <img src="/images/hexstrike.jpg" width="400" height="175" alt="HexStrike AI">
 </p>
 
 ---
@@ -90,7 +90,17 @@ We downloaded and installed Claude Desktop using the Github repository mentionne
 
 ---
 
-![1_step_1.png](/screenshots/1_step_1.png)
+### Adding the GPG key
+
+We used the following command to add the gpg key :
+
+````bash
+curl -fsSL https://pkg.claude-desktop-debian.dev/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/claude-desktop.gpg
+````
+
+---
+
+![screenshot_1.png](/images/screenshot_1.png)
 
 ---
 
