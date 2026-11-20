@@ -10,8 +10,8 @@
   <img src="https://img.shields.io/badge/Ver-Virtualbox%20v7.2.22-0070C0?style=flat-square&labelColor=000000" />
   <img src="https://img.shields.io/badge/Kali%20Linux-v2026.3-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />  
   <img src="https://img.shields.io/badge/Claude%20Desktop-E87500?style=flat-square&labelColor=000000&logo=Claude&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hexstrike%20AI-C00000?style=flat-square&labelColor=000000&logo=foobar2000&logoColor=white" />
-  <img src="https://img.shields.io/badge/MCP%20Server-Hexstrike%20AI-238F89?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/HexStrike%20AI-C00000?style=flat-square&labelColor=000000&logo=foobar2000&logoColor=white" />
+  <img src="https://img.shields.io/badge/MCP%20Server-HexStrike%20AI-238F89?style=flat-square&labelColor=000000" />
   <img src="https://img.shields.io/badge/MCP%20Client-Claude%20Desktop-238F89?style=flat-square&labelColor=000000" />
   <img src="https://img.shields.io/badge/Ver-John%20The%20Ripper%20v1.9-0070C0?style=flat-square&labelColor=000000" />
   <img src="https://img.shields.io/badge/Security%20Auditing-C00000?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
@@ -41,38 +41,46 @@
 
 ## 📌 Project Overview
 
-This project focuses on password cracking and helps develop Cybersecurity skills such as Ethical Hacking, Penetration Testing. It is made of two modules : Project Module 1 (PM1) and Project Module 2 (PM2). 
+This project focuses on password cracking using AI, MCP Server and client. It helps develop Cybersecurity skills such as Ethical Hacking, Penetration Testing and specially AI automated cybersecurity. It is composed of two modules : Module 1 (M1) and Module 2 (M2). 
 
-The purpose of PM1 is to use John The Ripper (JTR) in a Windows environment for password cracking. The PM2 aims to use two Networkwalks tools for password cracking.
+The purpose of M1 is to setup a HexStrike MCP Server with Claude Desktop as a MCP client. The M2 aims to use JTR via MCP orchestration for password cracking.
 
 The password-cracking activities presented in this project should only target authorized files and devices or those you own for security testing.
 
 ---
 
-# 🔓 PM1 - Password Cracking with JTR
+# 🔓 M1 - Setting up a HexStrike MCP Server
 
 ---
 
 ## ⚓ Background
 
-John the Ripper (JTR) is a popular password cracking tool used by security professionals to test how strong
-passwords are. It started as a tool for Unix systems but now works on Windows, Linux, and Mac. It can
-check many types of password hashes and also unlock password protected files like PDF, ZIP, and Office
-documents.
-
-Johnny is the graphical version of John the Ripper. It gives a simple point and click screen, so beginners can
-use JTR without typing long commands. Both tools are widely used in security testing and learning labs to
-understand password safety.
-
-In this lab task you will use JTR John and JTR Johnny to recover the password of a protected PDF file. This
-exercise helps you learn how password cracking works and why it is important to use strong passwords for
-protection.
+To experiment AI automated cybersecurity, we are setting up a Hexstrike MCP Server with Claude desktop on Kali Linux in a lab-environment. John the Ripper (JTR) is a popular password cracking tool used by security professionals to test how strong passwords are. It is integrated to the HexStrike MCP server as well as almost 150 other Cybersecurity tools.
 
 ---
 
 ## 🎯 Objective
 
-The PM1's objective is to crack the password of attached PDF files using JTR JOHN and JTR JOHNNY tools on a Windows PC.
+The PM1's objective is to set up a Hexstrike MCP Server with Claude desktop as client on a Kali Linux VM in a lab-environment.
+
+---
+
+## ⚙️ The lab configuration
+
+| 🧩 Component       | ⚙️ Configuration   |
+| ------------------ | ------------------  |
+| 🖥️ Host OS         | Windows 11         |
+| 🧠 Host RAM        | 16 GB              |
+| ⚡ Processor       | Intel Core i5      |
+| 🧰 Hypervisor      | VirtualBox 7.2.22  |
+| 🐉 Security OS     | Kali Linux 2026.3  |
+| 🧠 Kali RAM        | 4096 MB            |
+| 🌐 Virtual Network | NAT Network        |
+| 📡 Network Address | 10.0.0.0/24        |
+| 🐧 Kali IP Address | 10.0.0.2/24        |
+| 🚪 Default Gateway | 10.0.0.1           |
+| 🌍 DNS Server      | 8.8.8.8            |
+| 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
 
 ---
 
