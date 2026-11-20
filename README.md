@@ -362,91 +362,93 @@ The said PDF is from the Networkwalks project's Google Drive link. The downloade
 
 ## 👣 Step 2
 
-We opened the Networkwalks Hash Calculator in our web browser.
+We opened Claude AI desktop on our Kali Linux.
+
+And we entered the prompts below: 
+
+````text
+Check if John the Ripper is installed in this Hexstrike MCP and show me its version
+````
 
 ---
 
-![2_step_2.png](/screenshots/2_step_2.png)
+![screenshot_20.png](/images/screenshot_20.png)
 
 ---
 
-## 👣 Step 3
-
-We uploaded the downloaded locked PDF file to the Hash Calculator. And we got the hash value.
-
----
-
-![2_step_3.png](/screenshots/2_step_3.png)
+````text
+Please calculate the hash value of this PDF file: /home/kali/Desktop/My Locked PDF1.pdf
+````
 
 ---
 
-## 👣 Step 4
-
-We copied the hash value given by the Networkwalks Hash Calculator tool.
+![screenshot_21.png](/images/screenshot_21.png)
 
 ---
 
-## 👣 Step 5
-
-We opened the Networkwalks Password Cracker in your web browser.
-
----
-
-![2_step_5.png](/screenshots/2_step_5.png)
+````text
+Please use JTR tool in this Hexstrike MCP server to crack the password of this PDF file. Use the rockyou.txt wordlist dictionary.
+````
 
 ---
 
-## 👣 Step 6
-
-We pasted the hash value in the Password Cracker.
+![screenshot_22.png](/images/screenshot_22.png)
 
 ---
 
-![2_step_6.png](/screenshots/2_step_6.png)
+We screenshot the logs of the MCP server while cracking the password.
 
 ---
 
-## 👣 Step 7
-
-We started the attack. The tool tried different passwords until it found the match. The cracked password was shown on the screen.
+![screenshot_23.png](/images/screenshot_23.png)
 
 ---
 
-![2_step_7.png](/screenshots/2_step_7.png)
+We checked the successful completion of the password cracing with the command :
+
+````bash
+john --show --format=PDF /tmp/pdf.hash
+````
 
 ---
 
-We copied and saved the shown password in the txt file **`/output_files/password_4.txt`**.
+![screenshot_24.png](/images/screenshot_24.png)
 
 ---
 
-## 👣 Step 8
+The password had been cracked by AI.
 
-We opened the locked PDF file and entered the cracked password **`password1`**.
-
----
-
-![2_step_8.png](/screenshots/2_step_8.png)
+We copied the shown password and we opened the locked PDF file. 
 
 ---
 
-## 👣 Step 9
+![screenshot_25.png](/images/screenshot_25.png)
+
+---
+
+We entered the cracked password **`good-luck`**.
+
+---
+
+![screenshot_26.png](/images/screenshot_26.png)
+
+---
 
 We validated the entered password and the locked PDF file opened successfully.
 
 ---
 
-![2_step_9.png](/screenshots/2_step_9.png)
+![screenshot_27.png](/images/screenshot_27.png)
 
 ---
 
 ### Captured Flag
 
-The captured flag is **`nw{networkwalks_flag1_jtr_270521_1}`**.
+The captured flag is **`nw{cybersecurity_flag_captured_2608}`**.
 
 ---
 
-![2_flag1.png](/screenshots/2_falg1.png)
+![1_falg1.png](/images/1_falg1.png)
 
 ---
 
