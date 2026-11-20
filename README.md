@@ -456,7 +456,7 @@ The captured flag is **`nw{cybersecurity_flag_captured_2608}`**.
 
 We recorded a short video of the project completion.
 
-https://github.com/user-attachments/assets/61498543-e3fa-4762-a4cc-ce149b9cbfc8
+https://github.com/user-attachments/assets/e4da5218-b92d-4610-b1a4-f4e61f5d51b4
 
 ---
 
