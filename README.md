@@ -1,0 +1,2 @@
+# NETWORKWALKS-B084-WK3-EXTRA-PROJECTS
+NETWORKWALKS-B084-WK3-EXTRA-PROJECTS : How to set up Hexstrike-AI MCP server &amp; JTR Password Cracking using AI
