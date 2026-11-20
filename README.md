@@ -244,179 +244,83 @@ python3 hexstrike_server.py
 
 ### Editing MCP Server configuration on claude desktop
 
-
-
----
-
-## 👣 Step 3
-
-We downloaded the locked pdf files from the Networkwalks project's Google Drive link. The downloaded files are available in **`/downloads`**.
+We opened Claude Desktop. We went to **`Settings > Desktop app > Extensions`** and then clicked on **`Edit config`** under **`Local MCP servers`**.
 
 ---
 
-### Getting the hash of PDF1
-
-We open the hash website (Online HashCrack) in a browser.
-
-We uploaded the file `/downloads/My Locked PDF1.pdf` and got its hash. We copied the hash and saved in the text file `/output_files/hash1.txt`. 
+![screenshot_9.png](/images/screenshot_9.png)
 
 ---
 
-![1_step_3.png](/screenshots/1_step_3.png)
+We found out the name of the configuration file.
 
 ---
 
-### Getting the password of PDF1
-
-We opened Jonny and clicked on **Open password file**. We browsed to the saved *hash1.txt* file and clicked on **Open**.
+![screenshot_10.png](/images/screenshot_10.png)
 
 ---
 
-![1_step_4.png](/screenshots/1_step_4.png)
+We right-clicked on the configuration file and opened its path in a terminal. 
+
+We edited the file with :
+
+````bash
+sudo nano claude_desktop_config.json
+````
 
 ---
 
-We clicked on **Start new attack**. The PDF file password was cracked.
+![screenshot_11.png](/images/screenshot_11.png)
 
 ---
 
-![1_step_5.png](/screenshots/1_step_5.png)
+![screenshot_12.png](/images/screenshot_12.png)
 
 ---
 
-We exported and saved the password to `/output_files/password_1.txt` and `/output_files/password_1.csv`.
-
-### Unlocking the PDF1 file
-
-We opened the encrypted file `/downloads/My Locked PDF1.pdf` and entered the password we got **`good-luck`**.
+Claude Desktop showed then that the MCP server was running.
 
 ---
 
-![1_step_6.png](/screenshots/1_step_6.png)
+![screenshot_13.png](/images/screenshot_13.png)
+
+--- 
+
+We tested the setup with this prompt in the chat of Claude Desktop :
+
+````text
+please check the health of the HexStrike MCP server and present results with a small dashboard
+````
+
+![screenshot_14.png](/images/screenshot_14.png)
 
 ---
 
-We validated the password and the PDF file opened.
+![screenshot_15.png](/images/screenshot_15.png)
 
 ---
 
-![1_step_7.png](/screenshots/1_step_7.png)
+![screenshot_16.png](/images/screenshot_16.png)
 
 ---
 
-### Captured Flag
+We also opened the MCP server health page in a browser at the address :
 
-The captured flag is **`nw{cybersecurity_flag_captured_2608}`**.
-
----
-
-![1_flag1.png](/screenshots/1_falg1.png)
+````text
+http://localhost:8888/health
+````
 
 ---
 
-## 🔂 Repeating step 3
-
-We repeated the **step 3** for the two other encrypted PDF files **`/downloads/My Locked PDF2.pdf`** and **`/downloads/My Locked PDF3.pdf`**.
+![screenshot_17.png](/images/screenshot_17.png)
 
 ---
 
-### Getting the hash of PDF2
-
-We open the hash website (Online HashCrack) in a browser.
-
-We uploaded the file `/downloads/My Locked PDF2.pdf` and got its hash. We copied the hash and saved in the text file `/output_files/hash2.txt`. 
+We wisely took a snapchat of the Kali VM to save its state in Virtualbox.
 
 ---
 
-### Getting the password of PDF2
-
-We opened Jonny and clicked on **Open password file**. We browsed to the saved *hash2.txt* file and clicked on **Open**.
-
-We clicked on **Start new attack**. The PDF file password was cracked.
-
----
-
-![1_step_8.png](/screenshots/1_step_8.png)
-
----
-
-We exported and saved the password to `/output_files/password_2.txt` and `/output_files/password_2.csv`.
-
-### Unlocking the PDF2 file
-
-We opened the encrypted file `/downloads/My Locked PDF2.pdf` and entered the password we got **`password1`**.
-
----
-
-![1_step_9.png](/screenshots/1_step_9.png)
-
----
-
-We validated the password and the PDF file opened.
-
----
-
-![1_step_10.png](/screenshots/1_step_10.png)
-
----
-
-### Captured Flag
-
-The captured flag is **`nw{networkwalks_persistence_jtr_270521}`**.
-
----
-
-![1_flag2.png](/screenshots/1_falg2.png)
-
----
-
-### Getting the hash of PDF3
-
-We open the hash website (Online HashCrack) in a browser.
-
-We uploaded the file `/downloads/My Locked PDF3.pdf` and got its hash. We copied the hash and saved in the text file `/output_files/hash3.txt`. 
-
----
-
-### Getting the password of PDF3
-
-We opened Jonny and clicked on **Open password file**. We browsed to the saved *hash3.txt* file and clicked on **Open**.
-
-We clicked on **Start new attack**. The PDF file password was cracked.
-
----
-
-![1_step_11.png](/screenshots/1_step_11.png)
-
----
-
-We exported and saved the password to `/output_files/password_3.txt` and `/output_files/password_3.csv`.
-
-### Unlocking the PDF3 file
-
-We opened the encrypted file `/downloads/My Locked PDF3.pdf` and entered the password we got **`1qaz2wsx`**.
-
----
-
-![1_step_12.png](/screenshots/1_step_12.png)
-
----
-
-We validated the password and the PDF file opened.
-
----
-
-![1_step_13.png](/screenshots/1_step_13.png)
-
----
-
-### Captured Flag
-
-The captured flag is **`nw{networkwalks_flag_260821_1}`**.
-
----
-
-![1_flag3.png](/screenshots/1_falg3.png)
+![screenshot_18.png](/images/screenshot_18.png)
 
 ---
 
