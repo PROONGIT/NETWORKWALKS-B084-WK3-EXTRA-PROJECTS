@@ -80,13 +80,13 @@ To experiment AI automated cybersecurity, we are setting up a Hexstrike MCP Serv
 
 ## 🎯 Objective
 
-The PM1's objective is to set up a Hexstrike MCP Server with Claude desktop as client on a Kali Linux VM in a lab-environment.
+The PM1's objective is to set up a Hexstrike MCP Server with Claude desktop as client on a Kali Linux VM.
 
 ---
 
-## 👣 Step 1
+## Installation of Claude Desktop
 
-We downloaded John the Ripper (JTR) JOHN and Johnny GUI from the official websites on our windows PC.
+We downloaded and installed Claude Desktop using the Github repository mentionned in the [**Tools & Resources**](#-tools--resources) section.
 
 ---
 
