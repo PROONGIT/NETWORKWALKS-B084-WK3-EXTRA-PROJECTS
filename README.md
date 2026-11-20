@@ -124,7 +124,7 @@ sudo apt update && sudo apt install claude-desktop
 
 ---
 
-We installed Claude Desktop.
+We installed Claude Desktop and signed in.
 
 ---
 
@@ -132,21 +132,119 @@ We installed Claude Desktop.
 
 ---
 
-## 👣 Step 2
+## Downloading HexStrike MCP
 
-We unzipped both downloaded JTR files.
+We downloaded HexStrike MCP using the Github repository mentionned in the [**Tools & Resources**](#-tools--resources) section.
 
-We run the setup file of Johnny and installed it. We launched Jonny and set up the John The Ripper executable.
+### Cloning the repository
 
-The executable file **john.exe** is located in the run folder: 
+Command used :
 
-````text
-/john-1.9.0-jumbo-1-win64/run/john.exe
+````bash
+git clone https://github.com/0x4m4/hexstrike-ai.git
 ````
 
 ---
 
-![1_step_2.png](/screenshots/1_step_2.png)
+![screenshot_4.png](/images/screenshot_4.png)
+
+---
+
+We moved into the hexstrike-ai directory.
+
+````bash
+cd hexstrike-ai
+````
+
+---
+
+### Creating virtual environment
+
+We created a virtual environment on the Kali VM.
+
+````bash
+python3 -m venv hexstrike-env
+````
+
+We activated the environment :
+
+````bash
+source hexstrike-env/bin/activate # Linux/Mac
+````
+
+To activate the environment on a Windows PC:
+
+````bash
+hexstrike-env\Scripts\activate
+````
+
+---
+
+### Installing Python dependencies
+
+We used the following command to install the requirements.
+
+````bash
+pip3 install -r requirements.txt
+````
+
+We remarked that pip was backtracking the versions of **angr** for a long time because of compatibility issues. It was trying all its 216 versions satisfying the line **"angr>=9.2.0,<10.0.0"** in the requirements.txt.
+
+We opened the requirements.txt and found out that **angr** was not mandatory for the use of HexStrike MCP in our project. It is **"CONDITIONALY USED"** for **"BINARY ANALYSIS"**.
+
+We commented that line about **angr**, saved the requirements.txt new version and installed successfully the requirements.
+
+---
+
+![screenshot_5.png](/images/screenshot_5.png)
+
+---
+
+![screenshot_6.png](/images/screenshot_6.png)
+
+---
+
+We checked the installation status with these commands:
+
+````bash
+pip check
+````
+
+and
+
+````bash
+python -c "import flask, requests, psutil, aiohttp, bs4, selenium, mitmproxy, pwn; print('OK')"
+````
+
+---
+
+![screenshot_7.png](/images/screenshot_7.png)
+
+---
+
+To launch the MCP Server, we used the following commands:
+
+````bash
+cd ~/hexstrike-ai
+````
+
+````bash
+source hexstrike-env/bin/activate
+````
+
+````bash
+python3 hexstrike_server.py
+````
+
+---
+
+![screenshot_8.png](/images/screenshot_8.png)
+
+---
+
+### Editing MCP Server configuration on claude desktop
+
+
 
 ---
 
@@ -359,28 +457,6 @@ We downloaded the encrypted PDF file **`My Locked PDF1 (for NW Tools Lab WK3-PM2
 ---
 
 ![2_step_1.png](/screenshots/2_step_1.png)
-
----
-
-### Creating virtual environment
-
-We created a virtual environment on the Kali VM.
-
-````bash
-python3 -m venv hexstrike-env
-````
-
-We activated the environment :
-
-````bash
-source hexstrike-env/bin/activate # Linux/Mac
-````
-
-To activate the environment on a Windows PC:
-
-````bash
-hexstrike-env\Scripts\activate
-````
 
 ---
 
