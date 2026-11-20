@@ -104,6 +104,34 @@ curl -fsSL https://pkg.claude-desktop-debian.dev/KEY.gpg | sudo gpg --dearmor -o
 
 ---
 
+### Adding the repository
+
+````bash
+echo "deb [signed-by=/usr/share/keyrings/claude-desktop.gpg arch=amd64,arm64] https://pkg.claude-desktop-debian.dev stable main" | sudo tee /etc/apt/sources.list.d/claude-desktop.list
+````
+
+---
+
+### Updating and installing
+
+````bash
+sudo apt update && sudo apt install claude-desktop
+````
+
+---
+
+![screenshot_2.png](/images/screenshot_2.png)
+
+---
+
+We installed Claude Desktop.
+
+---
+
+![screenshot_3.png](/images/screenshot_3.png)
+
+---
+
 ## 👣 Step 2
 
 We unzipped both downloaded JTR files.
@@ -333,6 +361,30 @@ We downloaded the encrypted PDF file **`My Locked PDF1 (for NW Tools Lab WK3-PM2
 ![2_step_1.png](/screenshots/2_step_1.png)
 
 ---
+
+### Creating virtual environment
+
+We created a virtual environment on the Kali VM.
+
+````bash
+python3 -m venv hexstrike-env
+````
+
+We activated the environment :
+
+````bash
+source hexstrike-env/bin/activate # Linux/Mac
+````
+
+To activate the environment on a Windows PC:
+
+````bash
+hexstrike-env\Scripts\activate
+````
+
+---
+
+### 
 
 ## 👣 Step 2
 
