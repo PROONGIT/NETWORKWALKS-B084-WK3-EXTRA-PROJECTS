@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🔐 Cybersecurity and Ethical Hacking - PASSWORD HACKING
+# 🔐 Cybersecurity - How to setup HexStrike MCP Server & JTR Password Cracking AI-version (EXTRA)
 
-**W3-PM1: Password Cracking with JTR & W3-PM2: Password Cracking with NETWORKWALKS Tools**
+**W3-Extra- M1: How to setup HexStrike MCP Server & W3-Extra-M2: JTR Password Cracking AI-version**
 </div>
 
 <p align="center">
@@ -461,11 +461,8 @@ This project is intended strictly for education purposes only.
 
 # 🔗 Tools & Resources
 
-- **JTR John download:** [https://www.openwall.com/john/](https://www.openwall.com/john/)
-- **JTR Johnny download:** [https://openwall.info/wiki/john/johnny](https://openwall.info/wiki/john/johnny)
-- **Online HashCrack:** [https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php](https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php)
-- **Networkwalks Hash Calculator:** [https://networkwalks.com/hash-calculator/](https://networkwalks.com/hash-calculator/)
-- **Networkwalks Password Cracker:** [https://networkwalks.com/password-cracker/](https://networkwalks.com/password-cracker/)
+- **Claude Desktop download:** [https://github.com/aaddrick/claude-desktop-debian](https://github.com/aaddrick/claude-desktop-debian)]
+- **Hexstrike MCP download:** [https://github.com/0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 
 ---
 
@@ -480,5 +477,5 @@ LinkedIn: https://www.linkedin.com/in/kokou-sodjin%C3%A8-aziagbedo-434b2949
 
 ## 📌 Project Information
 
-**Program Name:** Cybersecurity at Networkwalks | **Week:** 03 | **Project:** Password Hacking With JTR & Networkwalks Tools | **Repository:** GitHub
+**Program Name:** Cybersecurity at Networkwalks | **Week:** 03 | **Project:** How to setup HexStrike MCP Server & JTR Password Cracking AI-version (EXTRA)| **Repository:** GitHub
 
